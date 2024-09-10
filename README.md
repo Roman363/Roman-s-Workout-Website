@@ -23,7 +23,7 @@ To view the project locally, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/YourUsername/workout-routine-generator.git
+    git clone https://github.com/Roman363/Roman-s-Workout-Website
     ```
 
 2. **Navigate to the project directory**:
