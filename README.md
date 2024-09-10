@@ -17,25 +17,6 @@ The **Workout Routine Generator** is a simple, user-friendly web application tha
 - **JavaScript**: For adding interactivity and generating workout routines based on user input.
 - **Google Fonts**: For custom typography.
 
-## **Getting Started**
-
-To view the project locally, follow these steps:
-
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/Roman363/Roman-s-Workout-Website
-    ```
-
-2. **Navigate to the project directory**:
-    ```bash
-    cd workout-routine-generator
-    ```
-
-3. **Open the `index.html` file** in your preferred web browser:
-    ```bash
-    open index.html
-    ```
-
 ## **Usage**
 
 1. **Select Your Fitness Level**: Choose from Beginner, Intermediate, or Advanced.
