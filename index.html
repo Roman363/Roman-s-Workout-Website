@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Routine Generator</title>
+    <!-- Link to Google Fonts for custom font styling -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header section with a title and introductory text -->
+    <header>
+        <div class="container">
+            <h1>Roman's Workout Routine Generator</h1>
+            <p>Your personalized workout routine, just 5 clicks away!</p>
+        </div>
+    </header>
+
+
+    <!-- Main content area for the workout routine generator -->
+    <main>
+        <section class="generator">
+            <div class="container">
+                <h2>Create Your Custom Workout</h2>
+
+                <!-- Dropdown to select the fitness level -->
+                <div class="form-group">
+                    <label for="fitness-level">Select Fitness Level:</label>
+                    <select id="fitness-level">
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                </div>
+
+                <!-- Dropdown to select the workout type -->
+                <div class="form-group">
+                    <label for="workout-type">Select Workout Type:</label>
+                    <select id="workout-type">
+                        <option value="full-body">Full Body</option>
+                        <option value="upper-body">Upper Body</option>
+                        <option value="lower-body">Lower Body</option>
+                    </select>
+                </div>
+                <button id="generate-btn" class="btn">Generate Routine</button>
+
+                <div id="routine-output" class="routine-output"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Roman's Workout Project. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link to external JavaScript file for functionality -->
+    <script src="script.js"></script>
+</body>
+</html>
